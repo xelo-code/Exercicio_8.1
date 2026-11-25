@@ -1,0 +1,16 @@
+.escondido{
+    display: none;
+}
+
+section:not(.respondida) p:hover{
+        background-color: grey;
+    }
+
+
+.respondida .correta{
+    background-color:green
+}
+
+.falhada .clicada {
+    background-color: red;
+}
